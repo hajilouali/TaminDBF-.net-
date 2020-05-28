@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tamin Utility", "Tamin Utility\Tamin Utility.csproj", "{13DA8048-0B48-4A43-BA69-C0E0470997D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFCreater", "DBFCreater\DBFCreater.csproj", "{FA12FDB2-D46A-4285-B02C-B52906637573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "..\..\..\Desktop\ZarkiaInsuranceDiskCreater\BusinessLogicLayer\BusinessLogicLayer.csproj", "{5E6443BA-A809-478F-AE78-EF9FE1002DBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaminDBF", "TaminDBF", "{7A704BA6-B9EA-45C5-9257-6DF4B788BBAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13DA8048-0B48-4A43-BA69-C0E0470997D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DA8048-0B48-4A43-BA69-C0E0470997D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DA8048-0B48-4A43-BA69-C0E0470997D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DA8048-0B48-4A43-BA69-C0E0470997D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA12FDB2-D46A-4285-B02C-B52906637573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA12FDB2-D46A-4285-B02C-B52906637573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA12FDB2-D46A-4285-B02C-B52906637573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA12FDB2-D46A-4285-B02C-B52906637573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6443BA-A809-478F-AE78-EF9FE1002DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6443BA-A809-478F-AE78-EF9FE1002DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6443BA-A809-478F-AE78-EF9FE1002DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6443BA-A809-478F-AE78-EF9FE1002DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA12FDB2-D46A-4285-B02C-B52906637573} = {7A704BA6-B9EA-45C5-9257-6DF4B788BBAB}
+		{5E6443BA-A809-478F-AE78-EF9FE1002DBE} = {7A704BA6-B9EA-45C5-9257-6DF4B788BBAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B31D1A26-446A-4F02-884D-6F176C6617AF}
+	EndGlobalSection
+EndGlobal
